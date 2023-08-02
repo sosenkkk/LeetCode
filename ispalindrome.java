@@ -15,11 +15,9 @@ class Solution {
         p=p*10 + y;
         r=r/10;
         }
-        System.out.println(p);
         if(p==x)
             return true;
-        else
-            return false;
+        return false;
     }
     }
 }
